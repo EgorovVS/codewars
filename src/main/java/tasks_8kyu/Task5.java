@@ -4,11 +4,17 @@ package tasks_8kyu;
 //        Input will always be valid, i.e. no negative integers.
 public class Task5 {
     public static void main(String[] args) {
-
+        System.out.println(countingSheep(3));
     }
 
     public static String countingSheep(int num) {
-
-        return "";
+        String answer = "";
+        int count = 1;
+        while(num!=0){
+            answer+=count+" sheep...";
+            count++;
+            num--;
+        }
+        return answer;
     }
 }
