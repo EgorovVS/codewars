@@ -1,5 +1,5 @@
-package tasks;
-
+package tasks_8kyu;
+//Написать функцию, которая удалит первый и последний символ строки
 public class Task2 {
     public static void main(String[] args) {
     String str = "Space";

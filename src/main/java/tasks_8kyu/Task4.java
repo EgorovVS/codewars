@@ -1,4 +1,4 @@
-package tasks;
+package tasks_8kyu;
 //Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
 public class Task4 {
     public static void main(String[] args) {

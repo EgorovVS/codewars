@@ -1,4 +1,4 @@
-package tasks;
+package tasks_8kyu;
 
 public class Task1 {
     public static void main(String[] args) {
